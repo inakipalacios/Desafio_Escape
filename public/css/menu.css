@@ -1,0 +1,30 @@
+
+.nav-link{color:var(--blanco);}
+.logo{
+    width: 200px;
+}
+
+ .navbar{ 
+    background-color: var(--fondoNav) !important; 
+     position: sticky !important;
+    padding: 2%;
+ } 
+
+  .nav-link:hover{
+    color: var(--blanco) !important;
+    text-decoration: underline var(--blanco) !important;
+  }
+  .nav-link:focus{
+    color: var(--blanco) !important;
+    text-decoration: underline var(--blanco) !important;
+  } 
+
+  .botonNav{
+    margin: 0%;
+  }
+ .buscador{
+  margin: 0%;
+ }
+
+
+  

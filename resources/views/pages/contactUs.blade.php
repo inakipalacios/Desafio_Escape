@@ -1,4 +1,3 @@
-<!-- @extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -14,10 +13,10 @@
                         </div>
                     @endif
 
-                    {{ __('Welcome to Desafio Escape!') }}
+                    {{ __('CONTACT US') }}
                 </div>
             </div>
         </div>
     </div>
 </div>
-@endsection -->
+@endsection

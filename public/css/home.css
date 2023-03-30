@@ -1,0 +1,8 @@
+.botoncartas{
+        background-color: var(--rojo) !important;
+        border: 0px
+}
+.botoncartas:hover{
+        background-color: var(--hoverRojo) !important;
+        border: 0px
+}

@@ -1,8 +1,8 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "Desafio escape",
+    "keywords": ["framework", "Desafio escape"],
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
