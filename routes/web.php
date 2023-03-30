@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\EscapeRoomsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,12 +19,14 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::controller(EscapeRoomsController::class)->group(function(){
+     Route::get('/EscapeRoomInfo/{id}', 'info')->name('roomsInfo');
+    });
 
 Auth::routes();
 
 
-Auth::routes();
 
 

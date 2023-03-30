@@ -6,3 +6,13 @@
         background-color: var(--hoverRojo) !important;
         border: 0px
 }
+.card{
+    width: 100%;
+    margin: 3%;}
+
+.card-text{
+        font-size: 20px;
+}
+.card-title{
+        font-size: 35px;
+}
